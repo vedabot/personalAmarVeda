@@ -12,7 +12,7 @@ function setup() {
   love.visible = false;
 }
 function preload(){
-
+//amar
   amarImage = loadImage("amar.png");
   
   vedaImage = loadImage("cloud.png");
