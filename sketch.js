@@ -12,6 +12,8 @@ function setup() {
   lovesprite.addImage(loveImage);
   lovesprite.scale=0.5;
   lovesprite.visible = false;
+        amarsprite.velocityX=3;
+      vedasprite.velocityX=-3;
 }
 function preload(){
 //amar
@@ -26,13 +28,12 @@ function draw() {
   background("white");
    
   
-   clicksprite = createSprite(300,240,75,40);
-   text("Click on the above box",240,280);
+   //clicksprite = createSprite(300,240,75,40);
+   //text("Click on the above box",240,280);
    
-    if(mousePressedOver(clicksprite)) {
-      amarsprite.velocityX=3;
-      vedasprite.velocityX=-3;
-    }
+  
+
+    
   if(amarsprite.isTouching(vedasprite)) {
       amarsprite.velocityX=0;
       vedasprite.velocityX=0;
