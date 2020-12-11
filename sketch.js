@@ -10,7 +10,7 @@ function setup() {
   
    lovesprite = createSprite(300,50,75,40);
   lovesprite.addImage(loveImage);
-  lovesprite.scale=0.1;
+  lovesprite.scale=0.5;
   lovesprite.visible = false;
 }
 function preload(){
