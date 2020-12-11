@@ -13,10 +13,10 @@ function setup() {
 }
 function preload(){
 //amar
-  amarImage = loadImage("amar.png");
+  amarImage = loadImage("love.png");
   
-  vedaImage = loadImage("cloud.png");
- loveImage = loadImage("cloud.png");
+  vedaImage = loadImage("love.png");
+ loveImage = loadImage("love.png");
   
 }
 
