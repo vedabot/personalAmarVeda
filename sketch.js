@@ -8,10 +8,10 @@ function setup() {
    vedasprite.addImage(vedaImage);
   vedasprite.scale=0.1;
   
-   love = createSprite(300,50,75,40);
-  love.addImage(loveImage);
+   lovesprite = createSprite(300,50,75,40);
+  lovesprite.addImage(loveImage);
   lovesprite.scale=0.1;
-  love.visible = false;
+  lovesprite.visible = false;
 }
 function preload(){
 //amar
@@ -36,7 +36,7 @@ function draw() {
   if(amarsprite.isTouching(vedasprite)) {
       amarsprite.velocityX=0;
       vedasprite.velocityX=0;
-    love.visible = true;
+    lovesprite.visible = true;
     }
    
   
