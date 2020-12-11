@@ -3,6 +3,7 @@ function setup() {
   
   amarsprite = createSprite(50,150,20,50);
   amarsprite.addImage(amarImage);
+  amarsprite.scale=0.1;
   vedasprite = createSprite(550,150,20,50);
    vedasprite.addImage(vedaImage);
   
@@ -12,7 +13,7 @@ function setup() {
 }
 function preload(){
 
-  amarImage = loadImage("cloud.png");
+  amarImage = loadImage("amar.png");
   
   vedaImage = loadImage("cloud.png");
  loveImage = loadImage("cloud.png");
