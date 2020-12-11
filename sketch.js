@@ -6,16 +6,18 @@ function setup() {
   amarsprite.scale=0.1;
   vedasprite = createSprite(550,150,20,50);
    vedasprite.addImage(vedaImage);
+  vedasprite.scale=0.1;
   
    love = createSprite(300,50,75,40);
   love.addImage(loveImage);
+  lovesprite.scale=0.1;
   love.visible = false;
 }
 function preload(){
 //amar
-  amarImage = loadImage("love.png");
+  amarImage = loadImage("amar.png");
   
-  vedaImage = loadImage("love.png");
+  vedaImage = loadImage("veda.png");
  loveImage = loadImage("love.png");
   
 }
