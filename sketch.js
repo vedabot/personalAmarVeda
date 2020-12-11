@@ -12,10 +12,10 @@ function setup() {
 }
 function preload(){
 
-  amarImage = loadImage("amar.png");
+  amarImage = loadImage("cloud.png");
   
-  vedaImage = loadImage("veda.png");
- loveImage = loadImage("love.png");
+  vedaImage = loadImage("cloud.png");
+ loveImage = loadImage("cloud.png");
   
 }
 
