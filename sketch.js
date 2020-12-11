@@ -18,7 +18,7 @@ function preload(){
   amarImage = loadImage("amar.png");
   
   vedaImage = loadImage("veda.png");
- loveImage = loadImage("love.png");
+ loveImage = loadImage("loving.png");
   
 }
 
